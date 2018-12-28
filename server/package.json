@@ -1,0 +1,35 @@
+{
+  "name": "tap-tracker-backend",
+  "version": "1.0.0",
+  "description": "tap tracker fullstack project backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js --exec 'npm run lint && node'",
+    "lint": "eslint **/*.js"
+  },
+  "keywords": [
+    "tap",
+    "tracker",
+    "backend",
+    "fullstack",
+    "server",
+    "vue"
+  ],
+  "author": "Davenchy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
