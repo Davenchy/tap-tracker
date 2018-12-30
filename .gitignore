@@ -5,8 +5,25 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# VSCode
-.vscode/
+# Extra
+.DS_Store
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
+*.db
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 
 # Runtime data
 pids
